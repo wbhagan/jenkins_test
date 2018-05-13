@@ -1,12 +1,10 @@
 package com.jenkins.controller;
 
-import java.util.Map;
-
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.RequestMapping;	
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;	
 
-@Controller
+@RestController
 public class JenkinsController {
 	
 	// inject via application.properties
